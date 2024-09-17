@@ -1,0 +1,115 @@
+* {
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+
+.form-add {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 16px;
+}
+
+.form {
+    width: 400px;
+    text-align: left;
+    border: 1px solid #000;
+    padding: 20px;
+}
+
+.form-title {
+    text-align: center;
+}
+
+.header {
+    height: 150px;
+    text-align: center;
+}
+
+.header-title {
+    color: brown;
+    font-size: 46px;
+    text-transform: uppercase;
+    line-height: 150px;
+}
+
+#product-name, #product-img, #old-price, #new-price, #product-code, #product-type {
+    margin-top: 16px;
+    border: 1px solid #000;
+}
+
+.input-name {
+    margin-left: 2px;
+}
+.input-new-price {
+    margin-left: 33px;
+}
+
+.input-old-price {
+    margin-left: 40px;
+}
+
+.input-type {
+    margin-left: 70px;
+}
+
+.input-code {
+    margin-left: 65px;
+}
+
+
+.btn {
+    width: 70px;
+    height: 32px;
+    margin-left: 146px;
+    border: 1px solid #000;
+    margin-bottom: 4px;
+    background-color: red;
+    color: #fff;
+    line-height: 16px;
+}
+
+/* .products {
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.product-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+  
+.product-info {
+    text-align: left;
+}
+
+.buy-btn {
+    width: 86px;
+    height: 40px;
+    background-color: red;
+    color: #fff;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+.product-card img {
+    width: 100%;
+}
+
+.product-man, .product-woman {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.title_man, .title_woman {
+    text-align: center;
+    color: brown;
+    font-size: 40px;
+    display: block; 
+}

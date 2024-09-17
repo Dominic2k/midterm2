@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <script src="script.js"></script>
+    <title>Midterm 2</title>
+</head>
+<body>
+    <div class="container">
+        <div class="form-add">
+            <form action="" name="form" class="form">
+                <div class="form-title">
+                    <h3>Clothes</h3>
+                </div>
+                <div class="product-name">
+                    <label for="">
+                        Product Image:
+                        <input class="input-img" type="text" name="product-img" id="product-img">
+                    </label>
+                </div>
+                <div class="product-name">
+                    <label for="">
+                        Product Name: 
+                        <input class="input-name" type="text" name="product-name" id="product-name">
+                    </label>
+                </div>
+                <div class="product-price">
+                    <label for="">
+                        New Price:
+                        <input class="input-new-price" type="number" name="new-price" id="new-price">
+                    </label>
+                </div>
+                <div class="product-price">
+                    <label for="">
+                        Old Price:
+                        <input class="input-old-price" type="number" name="old-price" id="old-price">
+                    </label>
+                </div>
+                <div class="product-type">
+                    <label for="">
+                        Type:
+                        <input class="input-type" type="text" name="product-type" id="product-type">
+                    </label>
+                </div>
+                <div class="product-code">
+                    <label for="">
+                        Code:
+                        <input class="input-code" type="text" name="product-code" id="product-code">
+                    </label>
+                </div>
+                <div class="product-btn">
+                    <button class="btn" onclick="ProcessAdd()" type="button">ADD</button>
+                </div>
+            </form>
+        </div>
+        <div class="header">
+            <div class="header-title">Thời trang</div>
+        </div>
+        <div class="products" id="products">
+            <p class="title_man">Nam</p>
+            <div class="product-man" id="product_man">
+            </div>
+            <hr>
+            <p class="title_woman">Nữ</p>
+            <div class="product-woman" id="product_woman">
+            </div>
+        </div>
+    </div>
+</body>
+</html>
