@@ -6,7 +6,6 @@ function ProcessAdd() {
     let productType = document.getElementById("product-type").value;
     let productCode = document.getElementById("product-code").value;
 
-    
     const products = document.getElementById('products');
     const product_man = document.getElementById("product_man");
     const product_woman = document.getElementById("product_woman");
